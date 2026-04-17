@@ -31,7 +31,7 @@ function Home() {
             <div className="max-w-5xl mx-auto px-4 py-8">
 
                 {loading && (
-                    <p className="font-lato text-text-light text-center mt-10">Entorno QA</p>
+                    <p className="font-lato text-text-light text-center mt-10">Entorno PreProd</p>
                 )}
 
                 {!loading && (
@@ -40,7 +40,12 @@ function Home() {
                         <div className="w-full md:w-80 shrink-0 flex flex-col gap-4">
 
                             <div>
-                                <p className="font-lato text-text-light text-sm">AFI: Entorno QA</p>
+                                <p className="font-lato text-text-light text-sm">
+                                    AFI:{" "}
+                                    <span className="inline-block bg-yellow-400 text-yellow-900 text-[10px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full">
+                                        PreProd
+                                    </span>
+                                </p>
                                 <h1 className="font-lato font-black text-2xl text-text">
                                     @{profile?.username ?? "fan"}
                                 </h1>
@@ -66,11 +71,14 @@ function Home() {
                                 </div>
                             </div>
 
-                            <div className="bg-secondary rounded-2xl p-5 text-white">
-                                <p className="font-lato font-black text-lg">Keep it up!</p>
-                                <p className="font-lato text-sm text-surface-light mt-1">
+                            <div className="bg-yellow-400 rounded-2xl p-5 text-yellow-900">
+                                <p className="font-lato font-black text-lg">Keep it up! 🚀</p>
+                                <p className="font-lato text-sm mt-1 text-yellow-800">
                                     Continue the momentum with another game
                                 </p>
+                                <span className="mt-3 inline-block bg-yellow-900 text-yellow-400 text-[10px] font-black uppercase tracking-widest px-2 py-0.5 rounded-full">
+                                    preprod
+                                </span>
                             </div>
 
                             <div className="bg-white rounded-2xl p-5 border-2 border-gray-100 shadow-sm">
