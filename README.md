@@ -14,7 +14,7 @@ Sports organizations face a critical and growing challenge: keeping fans engaged
 
 - During off-season, digital activity and community interaction drop significantly.
 - Even in active season, most fans consume content passively (just watching scores or streams).
-- There is limited real-time interaction between fans and few data-driven engagement mechanics.
+- There is limited real-time interaction between fans and few data-driven engagement mechanics..
 
 AFI addresses this by providing a real-time web platform that offers **constant, interactive and community-centric experiences** all year long.
 
